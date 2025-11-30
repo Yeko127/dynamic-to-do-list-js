@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
         };
 
         li.appendChild(removeBtn);
-        taskList.removeChild(li);
+        taskList.appendChild(li);
 
         taskInput.value = "";
     }
